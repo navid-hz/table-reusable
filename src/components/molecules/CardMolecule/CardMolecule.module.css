@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the highlight effect */
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Highlight effect on hover */
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.small {
+    width: 150px;
+    height: 200px;
+}
+
+.medium {
+    width: 300px;
+    height: 400px;
+}
+
+.large {
+    width: 450px;
+    height: 600px;
+}

@@ -1,0 +1,21 @@
+[
+    {
+      "Name": "Elephant",
+      "ImageUrl": "/images/elefant.jpg",
+      "Description": "Elephants are large mammals...",
+      "Geography": ["Africa", "Asia"]
+    },
+    {
+      "Name": "Crocodile",
+      "ImageUrl": "/images/crocodile.jpg",
+      "Description": "Crocodiles are large reptiles...",
+      "Geography": ["Africa", "Australia"]
+    },
+    {
+      "Name": "Gorilla",
+      "ImageUrl": "/images/gorilla.jpg",
+      "Description": "Gorillas are ground-dwelling apes...",
+      "Geography": ["Africa"]
+    }
+]
+

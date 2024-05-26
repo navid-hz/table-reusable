@@ -1,0 +1,6 @@
+/* ImageAtom.module.css */
+.imageAtom {
+    width: 100%; /* Or set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Optionally, cover the container */
+}

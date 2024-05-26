@@ -1,0 +1,21 @@
+.cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resetButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.resetButton:hover {
+    background-color: #ffc107;
+}
