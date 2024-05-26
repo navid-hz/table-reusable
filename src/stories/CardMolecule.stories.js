@@ -1,6 +1,6 @@
 import React from 'react';
 import CardMolecule from '../components/molecules/CardMolecule';
-import HighlightAtom from '../components/atoms/HighlightAtom';
+import HighlightAtom from '../components/organisms/HighlightModifier';
 
 export default {
     title: 'Molecule/CardMolecule',

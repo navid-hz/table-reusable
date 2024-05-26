@@ -12,14 +12,13 @@ const Template = (args) => {
     useEffect(() => {
         const fetchAnimals = async () => {
             try {
-                const response = await fetch('http://localhost:6006/animals.json');
+                const response = await fetch('./animals.json');
                 const data = await response.json();
                 setAnimals(data);
             } catch (error) {
                 console.error('Error fetching animal data:', error);
             }
         };
-
         fetchAnimals();
     }, []);
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import HighlightAtom from '../../atoms/HighlightAtom';
+import HighlightAtom from '../HighlightModifier';
 import CardMolecule from '../../molecules/CardMolecule';
 
 function AnimalCard({ animal, size, onClick }) {

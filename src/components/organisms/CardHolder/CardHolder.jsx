@@ -18,6 +18,7 @@ function CardHolder({ animals }) {
             <button className={styles.resetButton} onClick={handleResetClick}>
                 Reset Selection
             </button>
+
             <div className={styles.cardHolder}>
                 {animals.map((animal) => (
                     <AnimalCard
