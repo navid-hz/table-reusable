@@ -34,4 +34,6 @@ export default Table;
 
 
 const TableStyled = styled.table`
+    border-collapse: collapse;
+    
 `;
