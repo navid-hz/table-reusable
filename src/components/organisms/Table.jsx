@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-//import Th from "../atoms/ThCell";
 import Tr from "../molecules/Tr";
-//import Td from "../atoms/TdCell";
+
 
 const Table = ({ data }) => {
 
@@ -11,11 +10,7 @@ const Table = ({ data }) => {
     return (
         <TableStyled>
             <thead>
-                <Tr columns={columns}>
-                    {/* {columns.map((column, index) => (
-                        <Th key={index}>{column}</Th> 
-                    ))} */}
-                </Tr>
+                <Tr columns={columns} />
             </thead>
             <tbody>
                 {data.map((row, index) => (

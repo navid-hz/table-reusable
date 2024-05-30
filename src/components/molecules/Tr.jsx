@@ -4,12 +4,16 @@ import Th from "../atoms/ThCell";
 import Td from "../atoms/TdCell";
 
 
-const Tr = ({ columns, children }) => {
+const Tr = ({ columns, row }) => {
     return (
         <TrStyled>
-            {columns.map((column, index) => (
-                <Th key={index}>{column}</Th>
-            ))}
+            {row
+                ? columns.map((column, index) => (
+                    <Td key={index}>{row[column]}</Td>
+                ))
+                : columns.map((column, index) => (
+                    <Th key={index}>{column}</Th>
+                ))}
         </TrStyled>
     );
 };
